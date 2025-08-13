@@ -1,4 +1,3 @@
-console.log("Hello World!");
-console.log(typeof "Rick");
-console.log(typeof 42);
-console.log(typeof true);
+const myName = "Henrique";
+let randIndex = Math.floor(Math.random() * myName.length);
+console.log(myName.charAt(randIndex));
